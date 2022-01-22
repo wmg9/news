@@ -47,9 +47,7 @@ $(function(){
        }
        layer.msg('登陆成功')
        localStorage.setItem('token',res.token)
-       setInterval(() => {
         location.href='/index.html'     
-       }, 200);
        
       }
     })
